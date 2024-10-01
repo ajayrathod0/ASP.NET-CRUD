@@ -24,6 +24,7 @@
             
             <label for="chkIsActive">Active:</label>
             <asp:CheckBox ID="chkIsActive" runat="server" /><br /><br />
+            <br />
             
             <asp:Button ID="btnSubmit" runat="server" Text="Submit" OnClick="btnSubmit_Click" />
             <asp:Button ID="btnUpdate" runat="server" Text="Update" OnClick="btnUpdate_Click"  />
